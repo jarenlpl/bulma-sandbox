@@ -1,6 +1,5 @@
-pages:
-    artifacts:
-        paths:
-            - public
+artifacts:
+    paths:
+        - public
     only:
         - master
