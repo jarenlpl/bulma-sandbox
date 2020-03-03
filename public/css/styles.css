@@ -37,3 +37,25 @@
 	}
 
 }
+
+
+#quickContact {
+	justify-content: center;
+}
+
+#quickContact form {
+	border-radius: 1rem;
+}
+
+#quickContact .columns {
+	align-items: center;
+	max-width: 1200px;
+}
+
+
+#quickSamples {
+	justify-content: center;
+}
+#quickSamples>div {
+	max-width: 1200px;
+}
