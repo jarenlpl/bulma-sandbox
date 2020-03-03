@@ -59,3 +59,44 @@
 #quickSamples>div {
 	max-width: 1200px;
 }
+
+#quickSamples .card {
+	display: grid;
+	align-items: center;
+
+	border-radius: 0.25rem;
+	overflow: hidden;
+}
+
+#quickSamples .card p {
+	text-shadow: 0.25rem 0.2rem 0.5rem #404040;
+}
+
+#quickSamples .card>div:first-child {
+	grid-area: 1/1/2/2;
+	z-index: 10;
+}
+#quickSamples .card>div:last-child {
+	grid-area: 1/1/2/2;
+	z-index: 11;
+
+}
+
+
+/* contact page */
+
+
+#contact {
+	justify-content: center;
+
+	min-height: 85vh;
+}
+
+#contact form {
+	border-radius: 1rem;
+}
+
+#contact .columns {
+	align-items: center;
+	max-width: 1200px;
+}
