@@ -8,3 +8,32 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 }
+
+
+#footer .column {
+	align-items: center;
+	justify-content: center;
+}
+
+#footer .column>a {
+	margin-right: .5rem;
+}
+#footer .column>a:last-child {
+	margin-right: 0rem;
+}
+
+
+@media only screen and (min-width: 769px) {
+
+	#footer .column:first-child {
+		justify-content: start;
+	}
+	#footer .column:last-child {
+		justify-content: end;
+	}
+
+	#footer .column>a {
+		margin-right: 1rem;
+	}
+
+}

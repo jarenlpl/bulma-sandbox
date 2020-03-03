@@ -28,3 +28,15 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 });
+
+
+// copyright date
+
+document.addEventListener('DOMContentLoaded', () => {
+
+	const copyrightDate = document.querySelector('#copyrightDate');
+	const currentDate = new Date();
+	const currentYear = currentDate.getFullYear();
+
+	copyrightDate.textContent = currentYear;
+});
